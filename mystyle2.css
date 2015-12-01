@@ -1,0 +1,127 @@
+
+
+
+#nav{
+    height: 39px;
+    border-color: olive;
+	min-width:500px;
+    background-color:white;
+	border:2px  olive;
+	display:block;
+
+	
+}   
+
+#nav li{
+ border-color: olive;
+    list-style: none;
+    display: block;
+    float: left;
+    height: 40px;
+	width:120px;
+    position: relative;
+	background-color:lightseagreen;
+	
+}
+
+#nav li a{
+
+	font-family:"Times new roman",Arial,Georgia,Serif;
+	//font-weight:bold;
+	text-decoration:none;
+	color: olive;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0;
+    line-height: 40px;
+    border-right: 1px solid ;
+    height: 40px;
+	border-color: olive;
+	text-align:center;
+}
+
+#nav ul{
+	border-color:olive;
+	padding: 0px;
+    width:170px;
+    border:1px solid #ddd;
+	list-style:none;
+	display:block;
+	
+}
+/*#nav .menu,#nav .menu:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 160px;
+}
+#nav .menu a{
+    width: 129px;
+    overflow:hidden;
+}*/
+#nav li a{
+    display: block;
+	border-color: olive;
+	color:#fff;
+}
+#nav ul li {
+	border-color: olive;
+    border-right:none;
+    border-bottom:1px solid #DDDDDD;
+    width:170px;
+    height:39px;
+	border-color:olive;
+	border-left-color:olive;
+	
+}
+#nav ul li a {
+	border-color: olive;
+    border-right: none;
+    border-bottom:1px solid #FFFFFF;
+	
+}
+
+/* Sub menus */
+#nav ul{
+    display: none;
+    visibility:hidden;
+    position: absolute;
+    top: 40px;
+	border-color: olive;
+}
+/* Third-level menus */
+#nav ul ul{
+    top: 0px;
+    left:170px;
+    display: none;
+    visibility:hidden;
+    border: 1px solid #DDDDDD;
+	border-color: olive;
+}
+/* Fourth-level menus */
+#nav ul ul ul{
+    top: 0px;
+    left:170px;
+    display: none;
+    visibility:hidden;
+    border: 1px solid #DDDDDD;
+    border-color: olive;
+	}
+
+#nav ul li{
+    display: block;
+    visibility:visible;
+	background-color:lightseagreen;
+    border-color: olive;
+	}
+#nav li:hover{
+	 background-color:palevioletred;
+	 border-color: olive;
+	 text-align:center;
+}
+#nav li:hover > ul{
+    display: block;
+    visibility:visible;
+    background-color:lightseagreen;	
+    border-color: olive;
+	text-align:center;
+	
+}
